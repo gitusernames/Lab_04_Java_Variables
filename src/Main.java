@@ -1,13 +1,42 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+    int intOperandA = 8;
+    int intOperandB = 4;
+    int intSum;
+    int intProduct;
+    int intDifference;
+    int intQuotient;
+    int intModulo;
+    double doubleOperandA = 3.50;
+    double doubleOperandB = 1.75;
+    double doubleSum;
+    double doubleProduct;
+    double doubleDifference;
+    double doubleQuotient;
+    intSum = intOperandA + intOperandB;
+    System.out.println("The sum using ints of " + intOperandA + " and " + intOperandB + " is " + intSum);
+    intProduct = intOperandA * intOperandB;
+    System.out.println("The product using ints of " + intOperandA + " and " + intOperandB + " is " + intProduct);
+    intDifference = intOperandA - intOperandB;
+    System.out.println("The difference using ints of " + intOperandA + " and " + intOperandB + " is " + intDifference);
+    intQuotient = intOperandA / intOperandB;
+    System.out.println("The quotient using ints of " + intOperandA + " and " + intOperandB + " is " + intQuotient);
+    intModulo = intOperandA % intOperandB;
+    System.out.println("The modulo using ints of " + intOperandA + " and " + intOperandB + " is " + intModulo);
+    doubleSum = doubleOperandA + doubleOperandB;
+    System.out.println("The sum using ints of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleSum);
+    doubleProduct = doubleOperandA * doubleOperandB;
+    System.out.println("The product using ints of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleProduct);
+    doubleDifference = doubleOperandA - doubleOperandB;
+    System.out.println("The difference using ints of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleDifference);
+    doubleQuotient = doubleOperandA / doubleOperandB;
+    System.out.println("The quotient using ints of " + doubleOperandA + " and " + doubleOperandB + " is " + doubleQuotient);
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
-    }
+    double myLunchCost = 12.50;
+    int numKidsInFamily = 3;
+    boolean isRaining = false;
+    double gasPrice = 3.99;
+    int favNum = 17;
+    double shoeSize = 8;
+    int birthMonth = 1;
+    String fullName = "Arpan Gill";
 }
